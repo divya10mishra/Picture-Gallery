@@ -1,0 +1,27 @@
+/* .inputBox{
+  border-radius:"15px";
+  border:none;
+  margin: 50%;
+  float:left;
+  overflow:auto;
+} */
+/* float clearfix */
+/* .inputBox::after {
+  content: "";
+  clear: both;
+} */
+.button {
+  background-color:whitesmoke; 
+  border: 1px solid black;
+  padding:5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  float: right
+}
+.responsive_image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
