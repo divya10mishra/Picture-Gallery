@@ -13,6 +13,7 @@ function Header() {
     
     return (
         <div style={header_container}>
+          
             <input className="inputBox" type="text" placeholder="Search.."/>
             <button className="button button1">Next</button>
             <button className="button button1">Prev</button>
