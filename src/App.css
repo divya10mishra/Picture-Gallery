@@ -29,4 +29,19 @@
     max-width: 400px;
     height: auto;
   }
- 
+  .pagination {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 1px;
+    cursor: pointer;
+    background:gray;
+    color:white;
+    border-radius: 5px;
+  }
+  .pagination2 {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
