@@ -29,7 +29,7 @@ function Body() {
         >
           ⬅️
         </span>}
-        {[...Array(data?.products?.length / 6)].map((num, i) => {
+       {data?.products && [...Array(data?.products?.length / 6)].map((num, i) => {
           return (
               
             <span className={page === i+1 ? 'pagination' : 'pagination2' }
